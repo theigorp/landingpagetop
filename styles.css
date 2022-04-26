@@ -35,3 +35,15 @@ a {
 li {
     font-size: 18px;
 }
+
+.hero-section {
+    background-color: #1F2937;
+    padding: 0 196px;
+    border: 1px solid red;
+    color: #F9FAF8;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+}
