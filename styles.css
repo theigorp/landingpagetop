@@ -8,7 +8,7 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 8px 196px;
+    padding: 8px 232px;
 }
 
 .logo {
@@ -38,8 +38,7 @@ li {
 
 .hero-section {
     background-color: #1F2937;
-    padding: 84px 196px;
-    border: 1px solid red;
+    padding: 84px 232px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -47,16 +46,19 @@ li {
 
 img {
     width: 500px;
-    height: 250px;
+    height: 264px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-p {
+.hero-right-side {
+}
+
+.hero-text {
     margin-top: 0;
     font-size: 18px;
     color: #e5e7eb;
@@ -64,11 +66,7 @@ p {
 
 .hero-left-side {
     padding-right: auto;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 450px;
 }
 
 .hero-button {
@@ -79,4 +77,5 @@ p {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 10px;
 }
