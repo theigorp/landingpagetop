@@ -38,7 +38,7 @@ li {
 
 .hero-section {
     background-color: #1F2937;
-    padding: 84px 232px;
+    padding: 104px 232px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -78,5 +78,37 @@ h1 {
 }
 
 .information {
-    padding: 84px 232px;
+    padding: 50px 232px 104px 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.info-placeholder {
+    max-width: 150px;
+    min-height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;  
+}
+
+.info-group {
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-steps {
+    display: flex;
+    gap: 50px;
+}
+
+.info-text {
+    color: #1F2937;
 }
