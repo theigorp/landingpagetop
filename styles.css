@@ -8,16 +8,23 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 8px 196px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
+    /*three lines below will center the logo vertically*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
