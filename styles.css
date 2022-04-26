@@ -133,3 +133,29 @@ h1 {
     font-size: 22px;
     align-self: flex-end;
 }
+
+.cta-section {
+    margin: 104px 232px;
+    padding: 48px 104px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
