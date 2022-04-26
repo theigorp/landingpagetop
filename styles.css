@@ -24,7 +24,7 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
@@ -53,9 +53,6 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 0;
-}
-
-.hero-right-side {
 }
 
 .hero-text {
